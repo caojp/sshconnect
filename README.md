@@ -1,4 +1,12 @@
-sshcrack
+ssh connect
 ========
+## Install
+> pip install -r requirements.txt
+## Help
+> python main.py --help
 
-crack the ssh 
+## Run
+> python 
+
+
+
