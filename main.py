@@ -134,8 +134,7 @@ class SSHRun():
 
     def currentThreadResults(self):
         if self.outfile != " ":
-            timestr=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-            appendLineToFile('[+]' + timestr, self.outfile)
+            appendLineToFile('[+]' + time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), self.outfile)
         for connection in self.connections:
             connection.join()
             if connection.status == 1:
