@@ -8,7 +8,7 @@ from optparse import OptionParser
 from ssh_connect import *
 from banner import *
 from file_parser import *
-from time import time
+import time
 from loguru import logger
 
 
